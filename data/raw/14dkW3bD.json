@@ -1,0 +1,198 @@
+{
+	"uri": "entities/14dkW3bD",
+	"type": "configuration/entityTypes/AssetLocation",
+	"createdBy": "data.loader",
+	"createdTime": 1561977927777,
+	"updatedBy": "prashant.bodas@advance-auto.com",
+	"updatedTime": 1576644887998,
+	"attributes": {
+		"MDMLocationID": [
+			{
+				"type": "configuration/entityTypes/AssetLocation/attributes/MDMLocationID",
+				"ov": true,
+				"value": "129681",
+				"uri": "entities/14dkW3bD/attributes/MDMLocationID/2vNp3ac4F"
+			},
+			{
+				"type": "configuration/entityTypes/AssetLocation/attributes/MDMLocationID",
+				"ov": false,
+				"value": "160573",
+				"uri": "entities/14dkW3bD/attributes/MDMLocationID/33P2zucEH"
+			}
+		],
+		"Addresses": [
+			{
+				"label": "Physical: 128 B NORTH MARINE CORPS DR, TAMUNING, GU, Guam, 96913",
+				"value": {
+					"AddressType": [
+						{
+							"type": "configuration/entityTypes/AssetLocation/attributes/Addresses/attributes/AddressType",
+							"ov": true,
+							"value": "Physical",
+							"lookupCode": "Physical",
+							"lookupRawValue": "Physical",
+							"uri": "entities/14dkW3bD/attributes/Addresses/33P2zu48D/AddressType/33P2zuXy1"
+						}
+					],
+					"AddressLine1": [
+						{
+							"type": "configuration/entityTypes/AssetLocation/attributes/Addresses/attributes/AddressLine1",
+							"ov": true,
+							"value": "128 B NORTH MARINE CORPS DR",
+							"uri": "entities/14dkW3bD/attributes/Addresses/33P2zu48D/AddressLine1/33P2zuGuz"
+						}
+					],
+					"City": [
+						{
+							"type": "configuration/entityTypes/AssetLocation/attributes/Addresses/attributes/City",
+							"ov": true,
+							"value": "TAMUNING",
+							"uri": "entities/14dkW3bD/attributes/Addresses/33P2zu48D/City/33P2zuThl"
+						}
+					],
+					"StateProvince": [
+						{
+							"type": "configuration/entityTypes/AssetLocation/attributes/Addresses/attributes/StateProvince",
+							"ov": true,
+							"value": "GU",
+							"lookupError": "1003: RDM canonical value mapping not found for value [GU] and source [CQEDW] in tenant [BUNaSAeN2JauWTV]",
+							"uri": "entities/14dkW3bD/attributes/Addresses/33P2zu48D/StateProvince/33P2zuLBF"
+						}
+					],
+					"Country": [
+						{
+							"type": "configuration/entityTypes/AssetLocation/attributes/Addresses/attributes/Country",
+							"ov": true,
+							"value": "Guam",
+							"lookupCode": "GU",
+							"lookupRawValue": "Guam",
+							"uri": "entities/14dkW3bD/attributes/Addresses/33P2zu48D/Country/33P2zuPRV"
+						}
+					],
+					"Zip": [
+						{
+							"label": "96913-",
+							"value": {
+								"Zip5": [
+									{
+										"type": "configuration/entityTypes/AssetLocation/attributes/Addresses/attributes/Zip/attributes/Zip5",
+										"ov": true,
+										"value": "96913",
+										"uri": "entities/14dkW3bD/attributes/Addresses/33P2zu48D/Zip/33P2zu8OT/Zip5/1XWK7Qxv2"
+									}
+								]
+							},
+							"ov": true,
+							"uri": "entities/14dkW3bD/attributes/Addresses/33P2zu48D/Zip/33P2zu8OT"
+						}
+					]
+				},
+				"ov": true,
+				"uri": "entities/14dkW3bD/attributes/Addresses/33P2zu48D"
+			}
+		],
+		"SegmentCode": [
+			{
+				"type": "configuration/entityTypes/AssetLocation/attributes/SegmentCode",
+				"ov": true,
+				"value": "GPI",
+				"uri": "entities/14dkW3bD/attributes/SegmentCode/2LBfFyhNA"
+			}
+		],
+		"LocationAbbreviationName": [
+			{
+				"type": "configuration/entityTypes/AssetLocation/attributes/LocationAbbreviationName",
+				"ov": true,
+				"value": "RIV",
+				"uri": "entities/14dkW3bD/attributes/LocationAbbreviationName/2LBfFyYqe"
+			}
+		]
+	},
+	"isFavorite": false,
+	"crosswalks": [
+		{
+			"uri": "entities/14dkW3bD/crosswalks/2vNoxN5V1",
+			"type": "configuration/sources/CQEDW",
+			"value": "EL_CQEDW_STORE_14637",
+			"reltioLoadDate": "2019-10-14T11:03:41.636Z",
+			"createDate": "2019-07-01T10:45:27.777Z",
+			"updateDate": "2019-07-01T10:45:27.777Z",
+			"attributes": [
+				"entities/14dkW3bD/attributes/MDMLocationID/2vNp3ac4F",
+				"entities/14dkW3bD/attributes/SegmentCode/2LBfFyhNA",
+				"entities/14dkW3bD/attributes/LocationAbbreviationName/2LBfFyYqe"
+			],
+			"singleAttributeUpdateDates": {}
+		},
+		{
+			"uri": "entities/14dkW3bD/crosswalks/33P2w9qKT",
+			"type": "configuration/sources/CQEDW",
+			"value": "EL_CQEDW_STORE_14637_ADDRESS_27a4a3b13a41d65a58344fac48f79a23",
+			"reltioLoadDate": "2019-08-13T10:09:16.673Z",
+			"createDate": "2019-08-13T10:09:16.673Z",
+			"updateDate": "2019-08-13T10:09:16.673Z",
+			"attributes": [
+				"entities/14dkW3bD/attributes/Addresses/33P2zu48D/Zip/33P2zu8OT",
+				"entities/14dkW3bD/attributes/Addresses/33P2zu48D",
+				"entities/14dkW3bD/attributes/Addresses/33P2zu48D/AddressType/33P2zuXy1",
+				"entities/14dkW3bD/attributes/Addresses/33P2zu48D/StateProvince/33P2zuLBF",
+				"entities/14dkW3bD/attributes/Addresses/33P2zu48D/Country/33P2zuPRV",
+				"entities/14dkW3bD/attributes/Addresses/33P2zu48D/Zip/33P2zu8OT/Zip5/1XWK7Qxv2",
+				"entities/14dkW3bD/attributes/MDMLocationID/33P2zucEH",
+				"entities/14dkW3bD/attributes/Addresses/33P2zu48D/City/33P2zuThl",
+				"entities/14dkW3bD/attributes/Addresses/33P2zu48D/AddressLine1/33P2zuGuz"
+			],
+			"singleAttributeUpdateDates": {
+				"entities/14dkW3bD/attributes/Addresses/33P2zu48D/Zip/33P2zu8OT": "2019-12-18T04:54:47.998Z",
+				"entities/14dkW3bD/attributes/Addresses/33P2zu48D": "2019-12-18T04:54:47.998Z",
+				"entities/14dkW3bD/attributes/Addresses/33P2zu48D/Zip/33P2zu8OT/Zip5/1XWK7Qxv2": "2019-12-18T04:54:47.998Z"
+			}
+		}
+	],
+	"analyticsAttributes": {
+		"DQ": [
+			{
+				"value": {
+					"updatedDate": [
+						{
+							"type": "configuration/entityTypes/AssetLocation/analyticsAttributes/DQ/analyticsAttributes/updatedDate",
+							"value": "1564822945888",
+							"uri": "entities/14dkW3bD/analyticsAttributes/DQ/0/updatedDate/0"
+						}
+					],
+					"score": [
+						{
+							"type": "configuration/entityTypes/AssetLocation/analyticsAttributes/DQ/analyticsAttributes/score",
+							"value": "44",
+							"uri": "entities/14dkW3bD/analyticsAttributes/DQ/0/score/0"
+						}
+					]
+				},
+				"uri": "entities/14dkW3bD/analyticsAttributes/DQ/0"
+			}
+		],
+		"IQ": [
+			{
+				"value": {
+					"updatedDate": [
+						{
+							"type": "configuration/entityTypes/AssetLocation/analyticsAttributes/IQ/analyticsAttributes/updatedDate",
+							"value": "1564822945888",
+							"uri": "entities/14dkW3bD/analyticsAttributes/IQ/0/updatedDate/0"
+						}
+					],
+					"score": [
+						{
+							"type": "configuration/entityTypes/AssetLocation/analyticsAttributes/IQ/analyticsAttributes/score",
+							"value": "38",
+							"uri": "entities/14dkW3bD/analyticsAttributes/IQ/0/score/0"
+						}
+					]
+				},
+				"uri": "entities/14dkW3bD/analyticsAttributes/IQ/0"
+			}
+		]
+	},
+	"label": "",
+	"secondaryLabel": ""
+}
